@@ -1,0 +1,241 @@
+/* ======================================================
+    ### Responsive Mobile-first Media Queries ###
+========================================================= */
+
+/* ---------------------- max1280px --------------------- */
+/* ------------------------------------------------------ */
+@media screen and (max-width : 1199px) {
+    .banner-title h3 {
+        font-size: 72px;
+    }
+
+    .about-title h2 {
+        font-size: 42px;
+    }
+
+    .faq-content-title,
+    .faq-content-title1,
+    .faq-content-title3,
+    .faq-content-title4,
+    .faq-content-title5 {
+        padding: 26px 0;
+        margin: 24px 0;
+    }
+
+    .faq-content-title h3,
+    .faq-content-title1 h3,
+    .faq-content-title3 h3,
+    .faq-content-title4 h3,
+    .faq-content-title5 h3 {
+        color: #fff;
+        font-size: 52px
+    }
+
+    .faq-content-box h2,
+    .faq-content-box2 h2,
+    .faq-content-box3 h2,
+    .faq-content-box4 h2,
+    .faq-content-box5 h2 {
+        font-size: 50px;
+    }
+
+    .faq-content-box p,
+    .faq-content-box2 p,
+    .faq-content-box3 p,
+    .faq-content-box4 p,
+    .faq-content-box5 p {
+        font-size: 26px;
+    }
+
+    .text_info_title h2 {
+        font-size: 50px;
+    }
+
+}
+
+/* ------ end max1280px ------- */
+
+
+/* ---------------------- max992px ---------------------- */
+/* ------------------------------------------------------ */
+@media screen and (max-width : 992px) {
+    .section_ptb {
+        padding: 60px 0;
+    }
+
+    .banner-title h3 {
+        font-size: 52px;
+    }
+
+    .banner-title p {
+        font-size: 26px;
+        color: #fff;
+    }
+
+    .about-title h2 {
+        font-size: 32px;
+    }
+
+    .faq-content-title h3,
+    .faq-content-title1 h3,
+    .faq-content-title3 h3,
+    .faq-content-title4 h3,
+    .faq-content-title5 h3 {
+        color: #fff;
+        font-size: 42px;
+    }
+
+    .faq-content-title,
+    .faq-content-title1,
+    .faq-content-title3,
+    .faq-content-title4,
+    .faq-content-title5 {
+        padding: 20px 0;
+    }
+
+    .faq-content-title i,
+    .faq-content-title1 i,
+    .faq-content-title3 i,
+    .faq-content-title4 i,
+    .faq-content-title5 i {
+        bottom: -25%;
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+    }
+
+    .faq-content-box i,
+    .faq-content-box2 i,
+    .faq-content-box3 i,
+    .faq-content-box4 i,
+    .faq-content-box5 i {
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+    }
+
+    .faq-content-box h2,
+    .faq-content-box2 h2,
+    .faq-content-box3 h2,
+    .faq-content-box4 h2,
+    .faq-content-box5 h2 {
+        font-size: 24px;
+    }
+
+    .faq-content-box p,
+    .faq-content-box2 p,
+    .faq-content-box3 p,
+    .faq-content-box4 p,
+    .faq-content-box5 p {
+        font-size: 18px;
+        padding: 22px 0px;
+    }
+
+    .text_info_title h2 {
+        font-size: 38px;
+    }
+
+    .text_info_title p {
+        font-size: 17px;
+    }
+
+    .footer_content {
+        padding: 30px 0 20px;
+    }
+}
+
+/* ------ end max992px ------- */
+
+
+/* ---------------------- max768px ----------------------*/
+/* ------------------------------------------------------*/
+@media screen and (max-width : 768px) {
+    .navbar-brand.menu_logo img {
+        width: 80%;
+    }
+
+    .banner-title h3 {
+        font-size: 40px;
+    }
+
+    .banner-title p {
+        font-size: 20px;
+    }
+
+    .section_ptb {
+        padding: 40px 0;
+    }
+
+}
+
+/* ------ end max768px ------- */
+
+/* ---------------------- max575px -------------------- */
+/* ---------------------------------------------------- */
+
+@media screen and (max-width : 575px) {
+
+    .navbar-brand.menu_logo {
+        margin-right: 0;
+    }
+
+    .navbar-brand.menu_logo img {
+        width: 66%;
+    }
+
+    .banner-title h3 {
+        font-size: 32px;
+    }
+
+    .banner-title p {
+        font-size: 17px;
+    }
+
+    .about-title h2 {
+        font-size: 26px;
+    }
+
+    .faq-content-title h3,
+    .faq-content-title1 h3,
+    .faq-content-title3 h3,
+    .faq-content-title4 h3,
+    .faq-content-title5 h3 {
+        color: #fff;
+        font-size: 26px;
+    }
+
+    .faq-content-box p,
+    .faq-content-box2 p,
+    .faq-content-box3 p,
+    .faq-content-box4 p,
+    .faq-content-box5 p {
+        font-size: 14px;
+        padding: 14px 0px;
+    }
+
+    .faq-content-box h2,
+    .faq-content-box2 h2,
+    .faq-content-box3 h2,
+    .faq-content-box4 h2,
+    .faq-content-box5 h2 {
+        font-size: 16px;
+    }
+
+    .faq-content-box-title h2 {
+        padding: 12px 0;
+    }
+
+    .text_info_title h2 {
+        font-size: 26px;
+        text-align: center;
+    }
+
+
+}
+
+/* ------ end max575px ------- */
+
+
+/*=============================================================
+//         							The End                         
+=============================================================== */

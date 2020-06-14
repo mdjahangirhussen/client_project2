@@ -1,0 +1,413 @@
+/*============================================
+	* Author		: # name#
+	* Template Name : name | HTML Template
+	* version		:1.0
+	
+==============================================*/
+/*=======================================
+	TABLE OF CONTENTS HOME PAGE
+	
+	01. Genaral Css
+	02. header_section css
+	03. about_section css
+    04. text-info_section css
+	05. section_separator css
+    06. footer-section css
+	
+========================================*/
+
+
+/*-----------------------------------------
+			01.Genaral css
+-----------------------------------------*/
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    max-width: 1920px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+a:focus,
+a:hover,
+a:active,
+a {
+    text-decoration: none;
+    outline: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+    text-transform: capitalize;
+}
+
+p {
+    margin: 0;
+    line-height: 24px;
+}
+
+input,
+select,
+textarea,
+button {
+    outline: 0;
+}
+
+[placeholder]:focus::-webkit-input-placeholder {
+    -webkit-transition: opacity 0.3s 0.3s ease;
+    -moz-transition: opacity 0.3s 0.3s ease;
+    -ms-transition: opacity 0.3s 0.3s ease;
+    -o-transition: opacity 0.3s 0.3s ease;
+    transition: opacity 0.3s 0.3s ease;
+    opacity: 0;
+}
+
+textarea {
+    resize: none;
+}
+
+/* common css*/
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.section_ptb {
+    padding: 80px 0;
+}
+
+/*-----------------------------------------
+			02.header_section css
+-----------------------------------------*/
+.header-section {
+    background-image: url('../image/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+}
+
+.main-menu {
+    position: relative;
+}
+
+.toggle_bar {
+    position: relative;
+    border: none;
+    border-radius: 1px;
+    height: 30px;
+    width: 30px;
+    padding: 10px;
+
+}
+
+.icon_bar {
+    background: #fff none repeat scroll 0 0;
+    width: 30px;
+    height: 2px;
+    border-radius: 1px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.icon_bar:after,
+.icon_bar:before {
+    position: absolute;
+    content: '';
+    right: 0;
+    width: 100%;
+    height: 2px;
+    background: #fff none repeat scroll 0 0;
+    transition: all .3s ease;
+
+}
+
+.icon_bar:after {
+    top: -10px;
+    width: 85%;
+}
+
+.icon_bar:before {
+    top: 10px;
+    width: 130%;
+}
+
+.toggle_bar:focus {
+    outline: none;
+    border: none;
+}
+
+button.navbar-toggler.toggle_bar[aria-expanded="true"] .icon_bar:after {
+    top: 0;
+    right: 0;
+    transform: translate(0)rotate(45deg);
+    width: 100%;
+}
+
+button.navbar-toggler.toggle_bar[aria-expanded="true"] .icon_bar {
+    background: transparent;
+}
+
+button.navbar-toggler.toggle_bar[aria-expanded="true"] .icon_bar:before {
+    top: 0;
+    right: 0;
+    transform: translate(0) rotate(135deg);
+    width: 100%;
+}
+
+.main-navbar {
+    padding: 30px 0;
+}
+
+
+/* banner css*/
+.banner-title h3 {
+    font-size: 90px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 90px;
+}
+
+.banner-title p {
+    font-size: 35px;
+    color: #fff;
+}
+
+.banner-title {
+    padding-bottom: 120px;
+}
+
+.banner-content {
+    position: relative;
+}
+
+/*
+.banner-cnt-img {
+    position: absolute;
+    width: 100%;
+    height: 85%;
+    background-image: url(../image/banner_contet_1.png);
+    background-repeat: no-repeat;
+    bottom: 0;
+    left: -22%;
+    opacity: 1;
+}
+*/
+
+/*-----------------------------------------
+			03.about_section css
+-----------------------------------------*/
+.about_section {
+    position: relative;
+    margin-top: -35px;
+    background: #fff;
+    box-shadow: 0px 0 20px rgba(0, 0, 0, .1);
+    border-radius: 50px;
+
+}
+
+.about-title h2 {
+    text-align: center;
+    font-size: 52px;
+    font-weight: bold;
+}
+
+/* faq-content css*/
+.faq-content-title,
+.faq-content-title1,
+.faq-content-title3,
+.faq-content-title4,
+.faq-content-title5 {
+    text-align: center;
+    background: #FCC29C;
+    padding: 30px 0;
+    border-radius: 50px;
+    cursor: pointer;
+    position: relative;
+    margin: 30px 0;
+    box-shadow: 0px 1px 13px 3px rgba(0, 0, 0, 0.1);
+}
+
+.faq-content-title h3,
+.faq-content-title1 h3,
+.faq-content-title3 h3,
+.faq-content-title4 h3,
+.faq-content-title5 h3 {
+    color: #fff;
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.faq-content-box,
+.faq-content-box2,
+.faq-content-box3,
+.faq-content-box4,
+.faq-content-box5 {
+    text-align: center;
+    background: rgb(244, 112, 100);
+    background: linear-gradient(90deg, rgba(244, 112, 100, 1) 0%, rgba(244, 112, 100, 1) 35%, rgba(244, 112, 100, 1) 100%);
+    color: #fff;
+    padding: 60px 60px;
+    border-radius: 50px;
+    margin: 60px 0;
+    display: none;
+    position: relative;
+}
+
+.faq-content-box h2,
+.faq-content-box2 h2,
+.faq-content-box3 h2,
+.faq-content-box4 h2,
+.faq-content-box5 h2 {
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.faq-content-box p,
+.faq-content-box2 p,
+.faq-content-box3 p,
+.faq-content-box4 p,
+.faq-content-box5 p {
+    padding: 30px 0px;
+    font-size: 28px;
+    line-height: 1.24;
+    text-align: left;
+    font-weight: 600;
+}
+
+.faq-content-box-title {
+    position: relative;
+    background: #fff;
+    color: #2f60c3 !important;
+    border-radius: 50px;
+    margin-top: 30px;
+    border: 2px solid #fff;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    -webkit-box-shadow: 0px 1px 13px 3px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 1px 13px 3px rgba(0, 0, 0, 0.1);
+}
+
+.faq-content-box-title h2 {
+    background: #fff;
+    color: #f47064;
+    font-size: 50px;
+    border-radius: 35px;
+    padding: 20px 0;
+}
+
+.faq-content-title i,
+.faq-content-title1 i,
+.faq-content-title3 i,
+.faq-content-title4 i,
+.faq-content-title5 i {
+    position: absolute;
+    left: 50%;
+    bottom: -15%;
+    background: #fff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    transform: translateX(-50%);
+    box-shadow: 0px 0 15px rgba(75, 11, 11, 0.28);
+
+}
+
+i {
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.icon-size {
+    font-size: 30px;
+    color: #0e0e0e;
+}
+
+.faq-content-box i,
+.faq-content-box2 i,
+.faq-content-box3 i,
+.faq-content-box4 i,
+.faq-content-box5 i {
+    position: absolute;
+    left: 50%;
+    bottom: -3%;
+    background: #fff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    transform: translateX(-50%);
+    box-shadow: 0px 0 15px rgba(75, 11, 11, 0.28);
+}
+
+/*-----------------------------------------
+			04.text-info_section css
+-----------------------------------------*/
+
+.text_info_title h2 {
+    font-size: 52px;
+}
+
+.text_info_title p {
+    font-size: 20px;
+    padding: 15px;
+    line-height: 1.5;
+}
+
+/*-----------------------------------------
+			05.section_separator css
+-----------------------------------------*/
+.section_separator_path {
+    width: 100%;
+    height: 2px;
+    background: #b3b3b3;
+
+}
+
+/*-----------------------------------------
+			06.footer-section css
+-----------------------------------------*/
+.footer-section {
+    text-align: center;
+}
+
+.footer_content {
+    padding: 40px 0 20px;
+}
+
+.copyRight-text {
+    padding: 20px 0;
+}
+
+.copyRight-text a {
+    color: #0E0E0E;
+}
