@@ -76,59 +76,39 @@
         font-size: 32px;
     }
 
-    .faq-content-title h3,
-    .faq-content-title1 h3,
-    .faq-content-title3 h3,
-    .faq-content-title4 h3,
-    .faq-content-title5 h3 {
-        color: #fff;
-        font-size: 42px;
+    .card_title {
+        font-size: 40px;
+        padding: 0px 0;
     }
 
-    .faq-content-title,
-    .faq-content-title1,
-    .faq-content-title3,
-    .faq-content-title4,
-    .faq-content-title5 {
-        padding: 20px 0;
+    .card_header_one,
+    .card_header_two,
+    .card_header_three,
+    .card_header_four,
+    .card_header_five {
+        padding: 20px 0 !important;
     }
 
-    .faq-content-title i,
-    .faq-content-title1 i,
-    .faq-content-title3 i,
-    .faq-content-title4 i,
-    .faq-content-title5 i {
-        bottom: -25%;
-        width: 45px;
-        height: 45px;
-        line-height: 45px;
+    .showd,
+    .showd2,
+    .showd3,
+    .showd4,
+    .showd5,
+    .none,
+    .none2,
+    .none3,
+    .none4,
+    .none5 {
+        line-height: 48px;
     }
 
-    .faq-content-box i,
-    .faq-content-box2 i,
-    .faq-content-box3 i,
-    .faq-content-box4 i,
-    .faq-content-box5 i {
-        width: 45px;
-        height: 45px;
-        line-height: 45px;
-    }
-
-    .faq-content-box h2,
-    .faq-content-box2 h2,
-    .faq-content-box3 h2,
-    .faq-content-box4 h2,
-    .faq-content-box5 h2 {
+    .card_body_title p {
         font-size: 24px;
     }
 
-    .faq-content-box p,
-    .faq-content-box2 p,
-    .faq-content-box3 p,
-    .faq-content-box4 p,
-    .faq-content-box5 p {
-        font-size: 18px;
-        padding: 22px 0px;
+    .card_body_content h2 {
+        font-size: 40px;
+        padding: 10px 0;
     }
 
     .text_info_title h2 {
@@ -166,6 +146,20 @@
         padding: 40px 0;
     }
 
+    .card_title {
+        font-size: 34px;
+    }
+
+    .card_body_title p {
+        font-size: 22px;
+    }
+
+    .card_body_content h2 {
+        font-size: 34px;
+        padding: 8px 0;
+        margin-bottom: 0;
+    }
+
 }
 
 /* ------ end max768px ------- */
@@ -195,42 +189,31 @@
         font-size: 26px;
     }
 
-    .faq-content-title h3,
-    .faq-content-title1 h3,
-    .faq-content-title3 h3,
-    .faq-content-title4 h3,
-    .faq-content-title5 h3 {
-        color: #fff;
-        font-size: 26px;
-    }
-
-    .faq-content-box p,
-    .faq-content-box2 p,
-    .faq-content-box3 p,
-    .faq-content-box4 p,
-    .faq-content-box5 p {
-        font-size: 14px;
-        padding: 14px 0px;
-    }
-
-    .faq-content-box h2,
-    .faq-content-box2 h2,
-    .faq-content-box3 h2,
-    .faq-content-box4 h2,
-    .faq-content-box5 h2 {
-        font-size: 16px;
-    }
-
-    .faq-content-box-title h2 {
-        padding: 12px 0;
-    }
 
     .text_info_title h2 {
         font-size: 26px;
         text-align: center;
     }
 
+    .banner-title h3 {
+        font-size: 32px;
+    }
 
+    .showd,
+    .showd2,
+    .showd3,
+    .showd4,
+    .showd5,
+    .none,
+    .none2,
+    .none3,
+    .none4,
+    .none5 {
+        width: 40px;
+        height: 40px;
+        line-height: 40px !important;
+        bottom: -20px;
+    }
 }
 
 /* ------ end max575px ------- */
@@ -242,6 +225,87 @@
         margin-right: 0;
         width: 80%;
     }
+
+    .banner-title h3 {
+        font-size: 28px;
+    }
+
+    .banner-title p {
+        font-size: 16px;
+    }
+
+    .about-title h2 {
+        font-size: 20px;
+    }
+
+    .card {
+        border: none;
+        margin: 20px 0 30px;
+    }
+
+    .card_title {
+        font-size: 26px;
+    }
+
+
+    .showd,
+    .showd2,
+    .showd3,
+    .showd4,
+    .showd5,
+    .none,
+    .none2,
+    .none3,
+    .none4,
+    .none5 {
+        width: 36px;
+        height: 36px;
+        line-height: 36px !important;
+
+    }
+
+    .icon-size {
+        font-size: 26px;
+        color: #0e0e0e;
+    }
+
+    .card_body_title p {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    .card_body_content h2 {
+        font-size: 20px;
+        padding: 8px 0;
+        margin-bottom: 0;
+    }
+
+    .text_info_title h2 {
+        font-size: 26px;
+    }
+
+    .section_ptb {
+        padding: 30px 0;
+    }
+
+    .footer_content h3 {
+        font-size: 26px;
+    }
+
+    .footer_content h3 {
+        font-size: 19px;
+        font-weight: 600;
+    }
+
+    .footer_content p {
+        font-size: 15px;
+    }
+
+    /*
+    .card_title{
+        font-size:35px;
+    }
+*/
 }
 
 
