@@ -183,8 +183,16 @@ button.navbar-toggler.toggle_bar[aria-expanded="true"] .icon_bar:before {
 .main-navbar {
     padding: 30px 0;
 }
-
-
+.main_menu_collapse{
+    background: #364d6b52;
+    text-align: center;
+}
+.main_menu_collapse ul li a{
+    color:#fff;
+}
+.main_menu_collapse ul li a:hover{
+    color:#ddd;
+}
 /* banner css*/
 .banner-title h3 {
     font-size: 90px;
@@ -236,71 +244,32 @@ button.navbar-toggler.toggle_bar[aria-expanded="true"] .icon_bar:before {
     font-size: 52px;
     font-weight: bold;
 }
-
 /* faq-content css*/
-.faq-content-title,
-.faq-content-title1,
-.faq-content-title3,
-.faq-content-title4,
-.faq-content-title5 {
+.card_title{
+    color: #fff;
+    font-size: 55px;
+    font-weight: bold;
+}
+.card-header{
     text-align: center;
     background: #FCC29C;
-    padding: 30px 0;
-    border-radius: 50px;
-    cursor: pointer;
+    border-radius: 50px !important;
     position: relative;
-    margin: 30px 0;
     box-shadow: 0px 1px 13px 3px rgba(0, 0, 0, 0.1);
-}
 
-.faq-content-title h3,
-.faq-content-title1 h3,
-.faq-content-title3 h3,
-.faq-content-title4 h3,
-.faq-content-title5 h3 {
-    color: #fff;
-    font-size: 55px;
-    font-weight: bold;
 }
-
-.faq-content-box,
-.faq-content-box2,
-.faq-content-box3,
-.faq-content-box4,
-.faq-content-box5 {
-    text-align: center;
-    background: rgb(244, 112, 100);
-    background: linear-gradient(90deg, rgba(244, 112, 100, 1) 0%, rgba(244, 112, 100, 1) 35%, rgba(244, 112, 100, 1) 100%);
-    color: #fff;
-    padding: 60px 60px;
-    border-radius: 50px;
-    margin: 60px 0;
-    display: none;
-    position: relative;
+.card_header_one,.card_header_two,.card_header_three,.card_header_four,.card_header_five{
+    padding: 30px 0 !important;
 }
-
-.faq-content-box h2,
-.faq-content-box2 h2,
-.faq-content-box3 h2,
-.faq-content-box4 h2,
-.faq-content-box5 h2 {
-    font-size: 55px;
-    font-weight: bold;
-}
-
-.faq-content-box p,
-.faq-content-box2 p,
-.faq-content-box3 p,
-.faq-content-box4 p,
-.faq-content-box5 p {
-    padding: 30px 0px;
+.card_body_title p {
+    padding: 0px 0px;
     font-size: 28px;
     line-height: 1.24;
+    font-weight: 900;
     text-align: left;
-    font-weight: 600;
+    color: #fff;
 }
-
-.faq-content-box-title {
+.card_body_content {
     position: relative;
     background: #fff;
     color: #2f60c3 !important;
@@ -312,33 +281,64 @@ button.navbar-toggler.toggle_bar[aria-expanded="true"] .icon_bar:before {
     -webkit-box-shadow: 0px 1px 13px 3px rgba(0, 0, 0, 0.1);
     box-shadow: 0px 1px 13px 3px rgba(0, 0, 0, 0.1);
 }
-
-.faq-content-box-title h2 {
+.card_body_content h2 {
     background: #fff;
     color: #f47064;
     font-size: 50px;
     border-radius: 35px;
     padding: 20px 0;
+    text-align: center;
 }
 
-.faq-content-title i,
-.faq-content-title1 i,
-.faq-content-title3 i,
-.faq-content-title4 i,
-.faq-content-title5 i {
-    position: absolute;
-    left: 50%;
-    bottom: -15%;
+#headingOne,#headingtwo,,#headingthree,#headingfour,#headingfive{
+    padding: 0;
+    border:0px;
+    text-align: center;
+}
+.btn.collapse_btn_custom {
+    width: 100%;
+    box-shadow:none;
+}
+.card {
+    border: none;
+    margin: 40px 0;
+}
+.card-body {
+  background: linear-gradient(90deg, rgba(244, 112, 100, 1) 0%, rgba(244, 112, 100, 1) 35%, rgba(244, 112, 100, 1) 100%);
+    border-bottom-right-radius: 50px !important;
+    border-bottom-left-radius: 50px !important;
+    padding-bottom: 50px;
+}
+.showd,.showd2,.showd3,.showd4,.showd5, .none,.none2,.none3,.none4,.none5{
     background: #fff;
-    border-radius: 50%;
     width: 50px;
     height: 50px;
+    line-height: 30px;
     text-align: center;
-    line-height: 50px;
+    position: absolute;
+   left: 50%;
+    bottom: -25px;
     transform: translateX(-50%);
-    box-shadow: 0px 0 15px rgba(75, 11, 11, 0.28);
-
+    z-index: 99;
+    border-radius: 50%;
 }
+.none,.none2,.none3,.none4,.none5{
+    line-height: 60px;
+    text-align: center;
+}
+#collapseOne,#collapsetwo,#collapsethree,#collapsefour,#collapsefive{
+    position: relative;
+    display: none;
+   
+}
+.clicked{
+   background: linear-gradient(90deg, rgba(244, 112, 100, 1) 0%, rgba(244, 112, 100, 1) 35%, rgba(244, 112, 100, 1) 100%);
+    border-bottom-right-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+    border: none !important
+}
+
+
 
 i {
     font-size: 25px;
@@ -351,23 +351,7 @@ i {
     color: #0e0e0e;
 }
 
-.faq-content-box i,
-.faq-content-box2 i,
-.faq-content-box3 i,
-.faq-content-box4 i,
-.faq-content-box5 i {
-    position: absolute;
-    left: 50%;
-    bottom: -3%;
-    background: #fff;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    line-height: 50px;
-    transform: translateX(-50%);
-    box-shadow: 0px 0 15px rgba(75, 11, 11, 0.28);
-}
+
 
 /*-----------------------------------------
 			04.text-info_section css
@@ -411,3 +395,6 @@ i {
 .copyRight-text a {
     color: #0E0E0E;
 }
+
+
+

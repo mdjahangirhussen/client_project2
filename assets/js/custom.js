@@ -1,47 +1,98 @@
 $(document).ready(function () {
     "use strict";
-    $(".faq-content-title i").click(function () {
-        $(".faq-content-box").slideDown();
-        $(".down_icon").hide();
+    $(".showd").click(function () {
+        $("#collapseOne").slideDown();
+        $(".showd").hide();
     });
-    $(".faq-content-box i").click(function () {
-        $(".faq-content-box").slideUp();
-        $(".down_icon").show();
+    $(".none").click(function () {
+        $("#collapseOne").slideUp();
+        $(".showd").show();
+    });
+    $(".showd2").click(function () {
+        $("#collapsetwo").slideDown();
+        $(".showd2").hide();
+    });
+    $(".none2").click(function () {
+        $("#collapsetwo").slideUp();
+        $(".showd2").show();
     });
 
-    $(".faq-content-title1 i").click(function () {
-        $(".faq-content-box2").slideDown();
-        $(".down_icon2").hide();
+    $(".showd3").click(function () {
+        $("#collapsethree").slideDown();
+        $(".showd3").hide();
     });
-    $(".faq-content-box2 i").click(function () {
-        $(".faq-content-box2").slideUp();
-        $(".down_icon2").show();
+    $(".none3").click(function () {
+        $("#collapsethree").slideUp();
+        $(".showd3").show();
+    });
+    $(".showd4").click(function () {
+        $("#collapsefour").slideDown();
+        $(".showd4").hide();
+    });
+    $(".none4").click(function () {
+        $("#collapsefour").slideUp();
+        $(".showd4").show();
+    });
+    $(".showd5").click(function () {
+        $("#collapsefive").slideDown();
+        $(".showd5").hide();
+    });
+    $(".none5").click(function () {
+        $("#collapsefive").slideUp();
+        $(".showd5").show();
     });
 
-    $(".faq-content-title3 i").click(function () {
-        $(".faq-content-box3").slideDown();
-        $(".down_icon3").hide();
+    $(function () {
+        //adding a new class on button element
+        $(".showd").on('click', function () {
+            $(".card_header_one").addClass('clicked');
+        });
+        $(".none").on('click', function () {
+            $(".card_header_one").removeClass('clicked');
+        });
+
     });
-    $(".faq-content-box3 i").click(function () {
-        $(".faq-content-box3").slideUp();
-        $(".down_icon3").show();
+    $(function () {
+        //adding a new class on button element
+        $(".showd2").on('click', function () {
+            $(".card_header_two").addClass('clicked');
+        });
+        $(".none2").on('click', function () {
+            $(".card_header_two").removeClass('clicked');
+        });
+
     });
-    $(".faq-content-title4 i").click(function () {
-        $(".faq-content-box4").slideDown();
-        $(".down_icon4").hide();
+    $(function () {
+        //adding a new class on button element
+        $(".showd3").on('click', function () {
+            $(".card_header_three").addClass('clicked');
+        });
+        $(".none3").on('click', function () {
+            $(".card_header_three").removeClass('clicked');
+        });
+
     });
-    $(".faq-content-box4 i").click(function () {
-        $(".faq-content-box4").slideUp();
-        $(".down_icon4").show();
+    $(function () {
+        //adding a new class on button element
+        $(".showd4").on('click', function () {
+            $(".card_header_four").addClass('clicked');
+        });
+        $(".none4").on('click', function () {
+            $(".card_header_four").removeClass('clicked');
+        });
+
     });
-    $(".faq-content-title5 i").click(function () {
-        $(".faq-content-box5").slideDown();
-        $(".down_icon5").hide();
+    $(function () {
+        //adding a new class on button element
+        $(".showd5").on('click', function () {
+            $(".card_header_five").addClass('clicked');
+        });
+        $(".none5").on('click', function () {
+            $(".card_header_five").removeClass('clicked');
+        });
+
     });
-    $(".faq-content-box5 i").click(function () {
-        $(".faq-content-box5").slideUp();
-        $(".down_icon5").show();
-    });
+
     //-------- 0.9 WoW Js --------
     new WOW().init({});
 
