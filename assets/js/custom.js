@@ -1,5 +1,21 @@
 $(document).ready(function () {
     "use strict";
+    /*============================================
+	* Author		: # name#
+	* Template Name : name | HTML Template
+	* version		:1.0
+	
+==============================================
+*========== TABLE OF CONTENTS ================
+
+    0.1 Collapse js 
+    0.2 adding a new class on button Js 
+	0.3 range-slider ui js
+	0.4 WoW Js 
+
+========================================*/
+    //-------- 0.1 Collapse Js --------
+    
     $(".showd").click(function () {
         $("#collapseOne").slideDown();
         $(".showd").hide();
@@ -41,9 +57,11 @@ $(document).ready(function () {
         $("#collapsefive").slideUp();
         $(".showd5").show();
     });
-
+    
+    
+     //-------- 0.2 adding a new class on button Js --------
+    
     $(function () {
-        //adding a new class on button element
         $(".showd").on('click', function () {
             $(".card_header_one").addClass('clicked');
         });
@@ -53,7 +71,6 @@ $(document).ready(function () {
 
     });
     $(function () {
-        //adding a new class on button element
         $(".showd2").on('click', function () {
             $(".card_header_two").addClass('clicked');
         });
@@ -63,7 +80,6 @@ $(document).ready(function () {
 
     });
     $(function () {
-        //adding a new class on button element
         $(".showd3").on('click', function () {
             $(".card_header_three").addClass('clicked');
         });
@@ -73,7 +89,6 @@ $(document).ready(function () {
 
     });
     $(function () {
-        //adding a new class on button element
         $(".showd4").on('click', function () {
             $(".card_header_four").addClass('clicked');
         });
@@ -83,7 +98,6 @@ $(document).ready(function () {
 
     });
     $(function () {
-        //adding a new class on button element
         $(".showd5").on('click', function () {
             $(".card_header_five").addClass('clicked');
         });
@@ -103,8 +117,6 @@ $(document).ready(function () {
         $(".repay_content_two , .repay_content_two span i").addClass('repay_content_bg_active , icon_active');
     });
 
-
-
     $(".repay_content2").on('click', function () {
         $(".repay_content1 , .repay_content3 , .repay_content1 span i , .repay_content3 span i").removeClass('rcb_active , icon_active');
         $(".repay_content2 , .repay_content2 span i").addClass('rcb_active , icon_active');
@@ -120,7 +132,8 @@ $(document).ready(function () {
         $(".repay_content1 , .repay_content1 span i").addClass('rcb_active , icon_active');
     });
 
-    //-------- 0.9 Price_range Js --------
+    //-------- 0.3 Price_range Js --------
+    
     $(function () {
         $("#slider-range-min").slider({
             range: "min",
@@ -170,7 +183,8 @@ $(document).ready(function () {
         $("#amount4").val(" 年間 " + $("#slider-range-min4").slider("value"));
     });
 
-    //-------- 0.9 WoW Js --------
+    //-------- 0.4 WoW Js --------
+    
     new WOW().init({});
 
 });

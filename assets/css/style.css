@@ -14,9 +14,6 @@
 	05. section_separator css
     06. footer-section css
 	
-
-    Table of contents Home2 page
-
 ========================================*/
 
 
@@ -250,6 +247,7 @@ button.navbar-toggler.toggle_bar[aria-expanded="true"] .icon_bar:before {
     border: none;
     margin: 40px 0;
 }
+
 .card_title {
     color: #fff;
     font-size: 55px;
@@ -433,7 +431,7 @@ button.navbar-toggler.toggle_bar[aria-expanded="true"] .icon_bar:before {
 
 
 /*=====================================================================
-========================    page Two    ==============================
+========================   Home page Two    ==============================
 =======================================================================*/
 
 
@@ -700,11 +698,13 @@ input#amount4 {
     border-radius: 35px;
 
 }
-.top_btn_cutom:focus{
-    outline:none;
+
+.top_btn_cutom:focus {
+    outline: none;
 }
+
 /*=====================================================================
-========================    page 3    ==============================
+========================   Home page 3    ==============================
 =======================================================================*/
 .header_bg3 {
     background-image: url(../images/home_pbg3_03.png);
@@ -713,23 +713,29 @@ input#amount4 {
     background-position: center 20%;
     position: relative;
 }
-.tbanner_title{
+
+.tbanner_title {
     padding: 190px 0;
 }
-.tbanner_title p{
+
+.tbanner_title p {
     max-width: 700px;
 }
-.about_borrowing_ptb{
+
+.about_borrowing_ptb {
     padding-top: 20px;
 }
-.about_borrowing_title h2{
+
+.about_borrowing_title h2 {
     text-align: left;
     color: #fd7468;
 }
-.card.card_custom{
-     border-bottom: 3px dashed #000;
+
+.card.card_custom {
+    border-bottom: 3px dashed #000;
     margin: 20px 0px;
 }
+
 .card_header_custom {
     border-radius: 0 !important;
     background: transparent;
@@ -738,30 +744,34 @@ input#amount4 {
     justify-content: space-between;
     border-bottom: none;
 }
-.card_header_custom h5{
+
+.card_header_custom h5 {
     font-size: 46px;
     font-weight: 500
-    
 }
+
 .card_header_custom h5 span {
     font-size: 22px;
     color: #000;
     font-weight: 500;
 }
+
 .card_body_custom {
-  border-radius: 35px;
+    border-radius: 35px;
     padding: 30px;
     font-size: 30px;
     text-align: left;
     position: relative;
     background: #e5e5e5;
     margin: 20px 0 30px;
-    
+
 }
-.btn_coll_custom{
+
+.btn_coll_custom {
     position: relative;
 }
-.btn_coll_custom span{
+
+.btn_coll_custom span {
     position: absolute;
     content: '';
     left: -15px;
@@ -770,7 +780,9 @@ input#amount4 {
     height: 36px;
     transform: translateY(-50%);
 }
-.btn_coll_custom span:before, .btn_coll_custom span:after {
+
+.btn_coll_custom span:before,
+.btn_coll_custom span:after {
     position: absolute;
     content: '';
     width: 28px;
@@ -783,29 +795,33 @@ input#amount4 {
     -webkit-transition: all .3s ease;
     transition: all .3s ease;
 }
+
 .btn_coll_custom span:after {
     -webkit-transform: translate(-50%) rotate(90deg);
     transform: translate(-50%) rotate(90deg);
     background: #fd7468;
 }
+
 .btn_coll_custom[aria-expanded="true"] span:after {
     -webkit-transform: translate(-50%) rotate(0deg);
     transform: translate(-50%) rotate(0deg);
-    
-}
-.btn_coll_custom:focus {
-    outline: 0;
-   box-shadow: 0 0 0 0rem rgba(0, 123, 255, 0);
 
 }
-.about_btn_mtb{
+
+.btn_coll_custom:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0rem rgba(0, 123, 255, 0);
+
+}
+
+.about_btn_mtb {
     margin-top: 30px;
     margin-bottom: 30px;
 }
 
 
 /*=====================================================================
-========================    page 4    ==============================
+========================   Home page 4    ==============================
 =======================================================================*/
 .totat_payment_content {
     background: #fd7468;
@@ -813,87 +829,109 @@ input#amount4 {
     border-radius: 50px;
     box-shadow: 0px 0 20px rgba(0, 0, 0, .2);
 }
+
 .totat_payment_title {
     margin-bottom: 50px;
 }
-.totat_payment_content h2{
+
+.totat_payment_content h2 {
     text-align: center;
     color: #fff;
     font-size: 48px;
 }
-.tpform_mtb{
+
+.tpform_mtb {
     margin: 55px 0;
 }
-.tp_form_title{
-        font-size: 48px;
+
+.tp_form_title {
+    font-size: 48px;
     color: #fff;
 }
+
 .tp_fcontrol {
     background: #fff;
     text-align: right;
 }
+
 .tp_fcontrol:focus {
     background: #fff;
 }
+
 .tp_formcright {
     color: #fff;
 }
 
-.rpayment_content_bb{
+.rpayment_content_bb {
     border-bottom: 2px dashed #000;
 }
-.rtp_title{
-    color:#fd7468;
+
+.rtp_title {
+    color: #fd7468;
 }
-.rt_formcright{
+
+.rt_formcright {
     color: #fff;
     padding-left: 10px;
 }
-.rp_form_title,.rp_formcright{
+
+.rp_form_title,
+.rp_formcright {
     color: #000;
 }
-.rp_form_title span{
-        font-size: 28px;
+
+.rp_form_title span {
+    font-size: 28px;
 }
-.rp_fcontrol,.rp_fcontrol:focus {
+
+.rp_fcontrol,
+.rp_fcontrol:focus {
     background: #e5e5e5;
 }
+
 .form-row input::placeholder {
-  color: #000;
-  opacity: 1;
+    color: #000;
+    opacity: 1;
 }
 
 .summary_section {
     background: #e8e8e8;
 }
+
 .summary_title h2 {
     color: #255ed6;
     font-size: 56px;
     text-align: center;
     font-weight: 600;
 }
+
 .summary_content {
     margin: 40px 0;
     text-align: center;
 }
+
 .summary_info_text {
     text-align: left;
 }
+
 .summary_info_text p {
     color: #000;
     font-size: 26px;
     line-height: 1.5;
     letter-spacing: 2px;
 }
-.summary_info_text p span{
+
+.summary_info_text p span {
     color: #fd7468;
 }
-.more_contact{
-    background:url(../images/summary_info.png);
-    background-size:cover;
+
+.more_contact {
+    background: url(../images/summary_info.png);
+    background-size: cover;
     background-position: center center;
     height: auto;
 }
+
 .more_contact p {
     max-width: 750px;
     margin: 0 auto;
@@ -902,15 +940,21 @@ input#amount4 {
     color: #fff;
     padding: 100px 60px;
 }
-.simulate_section_btn{
-        border-top-right-radius: 0;
+
+.simulate_section_btn {
+    border-top-right-radius: 0;
     border-top-left-radius: 0;
 }
-.card_ptb{
+
+/*=====================================================================
+========================   Home page 5    ==============================
+=======================================================================*/
+.card_ptb {
     padding-left: 40px;
     padding-right: 40px;
 }
-.card_header_bg{
+
+.card_header_bg {
     background: linear-gradient(90deg, rgba(244, 112, 100, 1) 0%, rgba(244, 112, 100, 1) 35%, rgba(244, 112, 100, 1) 100%);
     box-shadow: none;
     border-bottom: none;
