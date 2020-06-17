@@ -9,7 +9,7 @@
 	
 	01. Genaral Css
 	02. header_section css
-	03. about_section css
+	03. simulate_section css
     04. text-info_section css
 	05. section_separator css
     06. footer-section css
@@ -87,6 +87,7 @@ button {
     -o-transition: opacity 0.3s 0.3s ease;
     transition: opacity 0.3s 0.3s ease;
     opacity: 0;
+
 }
 
 textarea {
@@ -184,7 +185,7 @@ button.navbar-toggler.toggle_bar[aria-expanded="true"] .icon_bar:before {
 }
 
 .main-navbar {
-    padding: 30px 0 0;
+    padding: 30px 0;
 }
 
 .main_menu_collapse {
@@ -201,8 +202,12 @@ button.navbar-toggler.toggle_bar[aria-expanded="true"] .icon_bar:before {
 }
 
 /* banner css*/
+.banner {
+    padding-bottom: 120px;
+}
+
 .banner-title h3 {
-    font-size: 90px;
+    font-size: 88px;
     color: #fff;
     font-weight: bold;
 }
@@ -212,18 +217,20 @@ button.navbar-toggler.toggle_bar[aria-expanded="true"] .icon_bar:before {
     color: #fff;
 }
 
+/*
 .banner-title {
     padding-bottom: 120px;
 }
+*/
 
-
-.banner_content {
+.banner_content_pl {
     padding-left: 6%;
 }
+
 /*-----------------------------------------
-			03.about_section css
+			03.simulate_section css
 -----------------------------------------*/
-.about_section {
+.simulate_section {
     position: relative;
     margin-top: -35px;
     background: #fff;
@@ -232,13 +239,17 @@ button.navbar-toggler.toggle_bar[aria-expanded="true"] .icon_bar:before {
 
 }
 
-.about-title h2 {
+.simulate-title h2 {
     text-align: center;
     font-size: 52px;
     font-weight: bold;
 }
 
 /* faq-content css*/
+.card {
+    border: none;
+    margin: 40px 0;
+}
 .card_title {
     color: #fff;
     font-size: 55px;
@@ -302,10 +313,7 @@ button.navbar-toggler.toggle_bar[aria-expanded="true"] .icon_bar:before {
     box-shadow: none;
 }
 
-.card {
-    border: none;
-    margin: 40px 0;
-}
+
 
 .card-body {
     background: linear-gradient(90deg, rgba(244, 112, 100, 1) 0%, rgba(244, 112, 100, 1) 35%, rgba(244, 112, 100, 1) 100%);
@@ -366,7 +374,7 @@ button.navbar-toggler.toggle_bar[aria-expanded="true"] .icon_bar:before {
 
 
 
-i {
+.card_title p i {
     font-size: 25px;
     line-height: 30px;
     text-align: center;
@@ -420,4 +428,492 @@ i {
 
 .copyRight-text a {
     color: #0E0E0E;
+}
+
+
+
+/*=====================================================================
+========================    page Two    ==============================
+=======================================================================*/
+
+
+.sp_header_section {
+    background-position: top 15% center;
+}
+
+.banner_content_left {
+    display: flex;
+    align-self: flex-end;
+
+}
+
+.s_banner_title p {
+    font-size: 30px;
+    line-height: 1.5;
+}
+
+.s_p_banner {
+    padding-bottom: 120px !important;
+}
+
+.borrowing_cndn {
+    padding: 40px 0;
+}
+
+.form_row_content {
+    display: flex;
+    align-items: center;
+    margin: 25px 0px !important;
+}
+
+.form_title {
+    font-size: 58px;
+    color: #fd7468;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.form_title_sub {
+    font-size: 34px;
+    background: #6fb6e4;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 20px;
+}
+
+.form_title_icon i {
+    width: 50px;
+    height: 50px;
+    background: #fd7468;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    box-shadow: 0px 0 12px rgba(0, 0, 0, .3);
+}
+
+.form_control_ctm {
+    background: #cecece;
+    padding: 32px 40px;
+    border: 0px !important;
+    border-radius: 25px;
+    box-shadow: 0px 0 8px rgba(0, 0, 0, .2);
+    font-size: 30px;
+}
+
+.form_control_ctm:focus {
+    color: #000;
+    background-color: #cecece;
+    border: 0px !important;
+    outline: 0;
+    box-shadow: 0px 0 8px rgba(0, 0, 0, .2);
+}
+
+.form_control_right {
+    display: inline-block;
+    padding-top: 15px;
+    padding-left: 15px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.form_control_text {
+    margin: 30px 0;
+}
+
+.form_control_text p {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.repay_content_one,
+.repay_content_two {
+    text-align: center;
+    background: #cecece;
+    padding: 80px 0;
+    border-radius: 60px;
+    box-shadow: 0px 0 15px rgba(0, 0, 0, .2);
+    cursor: pointer;
+}
+
+.repay_content_one h2,
+.repay_content_two h2 {
+    font-size: 50px;
+    color: #fff;
+}
+
+.repay_content_one span i,
+.repay_content_two span i {
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    color: #cecece;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    box-shadow: 0px 0 25px rgb(206, 206, 206);
+
+}
+
+.repay_content_bg {
+    background: linear-gradient(90deg, rgba(244, 112, 100, 1) 0%, rgba(244, 112, 100, 1) 35%, rgba(244, 112, 100, 1) 100%);
+
+}
+
+.repay_content_bg_active {
+    background: linear-gradient(90deg, rgba(244, 112, 100, 1) 0%, rgba(244, 112, 100, 1) 35%, rgba(244, 112, 100, 1) 100%);
+}
+
+.icon_active {
+    color: #fd7468 !important;
+}
+
+/*price_range_css*/
+.price {
+    position: relative;
+}
+
+#slider-range-min,
+#slider-range-min2,
+#slider-range-min3,
+#slider-range-min4 {
+    background: #cecece none repeat scroll 0 0;
+    border: 1px solid transparent;
+    height: 5px;
+}
+
+.ui-slider-range {
+    top: -1px;
+    background: transparent;
+    height: 6px;
+}
+
+.ui-slider .ui-slider-handle {
+    cursor: default;
+    height: 26px;
+    position: absolute;
+    width: 26px;
+    z-index: 2;
+    border-radius: 100%;
+    bottom: 55px;
+}
+
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default,
+.ui-button,
+html .ui-button.ui-state-disabled:hover,
+html .ui-button.ui-state-disabled:active {
+    background: #fd7468 none repeat scroll 0 0;
+    border: 1px solid #fd7468;
+    color: #fd7468;
+    box-shadow: 0px 0 12px rgba(0, 0, 0, .3);
+
+}
+
+.ui-slider-handle.ui-corner-all.ui-state-default:focus {
+    outline: none;
+}
+
+.price p {
+    text-align: right;
+}
+
+.price p input#amount,
+.price p input#amount2,
+.price p input#amount3,
+    {
+    padding: 15px 0;
+    border-radius: 30px;
+    box-shadow: 0px 0 15px rgba(0, 0, 0, .2);
+    cursor: pointer;
+    display: flex;
+    height: 50px;
+    background: #fff;
+    color: #cecece;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    box-shadow: 0px 0 25px rgb(206, 206, 206);
+
+}
+
+input#amount,
+input#amount2,
+input#amount3,
+input#amount4 {
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+.repay_content1,
+.repay_content2,
+.repay_content3 {
+    text-align: center;
+    background: #cecece;
+    padding: 20px 0;
+    border-radius: 35px;
+    box-shadow: 0px 0 15px rgba(0, 0, 0, .2);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.repay_content1 h2,
+.repay_content2 h2,
+.repay_content3 h2 {
+    font-size: 50px;
+    color: #fff;
+}
+
+.repay_content1 span i,
+.repay_content2 span i,
+.repay_content3 span i {
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    color: #cecece;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    box-shadow: 0px 0 25px rgb(206, 206, 206);
+
+}
+
+.rcb_active {
+    background: linear-gradient(90deg, rgba(244, 112, 100, 1) 0%, rgba(244, 112, 100, 1) 35%, rgba(244, 112, 100, 1) 100%);
+}
+
+
+.top_btn_cutom {
+    font-size: 50px;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    border: 0;
+    background: #fff;
+    color: #fd7468;
+    box-shadow: 0px 0 20px rgba(0, 0, 0, .1);
+    border-radius: 35px;
+
+}
+.top_btn_cutom:focus{
+    outline:none;
+}
+/*=====================================================================
+========================    page 3    ==============================
+=======================================================================*/
+.header_bg3 {
+    background-image: url(../images/home_pbg3_03.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 20%;
+    position: relative;
+}
+.tbanner_title{
+    padding: 190px 0;
+}
+.tbanner_title p{
+    max-width: 700px;
+}
+.about_borrowing_ptb{
+    padding-top: 20px;
+}
+.about_borrowing_title h2{
+    text-align: left;
+    color: #fd7468;
+}
+.card.card_custom{
+     border-bottom: 3px dashed #000;
+    margin: 20px 0px;
+}
+.card_header_custom {
+    border-radius: 0 !important;
+    background: transparent;
+    box-shadow: none;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: none;
+}
+.card_header_custom h5{
+    font-size: 46px;
+    font-weight: 500
+    
+}
+.card_header_custom h5 span {
+    font-size: 22px;
+    color: #000;
+    font-weight: 500;
+}
+.card_body_custom {
+  border-radius: 35px;
+    padding: 30px;
+    font-size: 30px;
+    text-align: left;
+    position: relative;
+    background: #e5e5e5;
+    margin: 20px 0 30px;
+    
+}
+.btn_coll_custom{
+    position: relative;
+}
+.btn_coll_custom span{
+    position: absolute;
+    content: '';
+    left: -15px;
+    top: 50%;
+    width: 36px;
+    height: 36px;
+    transform: translateY(-50%);
+}
+.btn_coll_custom span:before, .btn_coll_custom span:after {
+    position: absolute;
+    content: '';
+    width: 28px;
+    height: 3px;
+    background: #fd7468;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%);
+    transform: translate(-50%);
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+.btn_coll_custom span:after {
+    -webkit-transform: translate(-50%) rotate(90deg);
+    transform: translate(-50%) rotate(90deg);
+    background: #fd7468;
+}
+.btn_coll_custom[aria-expanded="true"] span:after {
+    -webkit-transform: translate(-50%) rotate(0deg);
+    transform: translate(-50%) rotate(0deg);
+    
+}
+.btn_coll_custom:focus {
+    outline: 0;
+   box-shadow: 0 0 0 0rem rgba(0, 123, 255, 0);
+
+}
+.about_btn_mtb{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+/*=====================================================================
+========================    page 4    ==============================
+=======================================================================*/
+.totat_payment_content {
+    background: #fd7468;
+    padding: 50px 30px;
+    border-radius: 50px;
+    box-shadow: 0px 0 20px rgba(0, 0, 0, .2);
+}
+.totat_payment_title {
+    margin-bottom: 50px;
+}
+.totat_payment_content h2{
+    text-align: center;
+    color: #fff;
+    font-size: 48px;
+}
+.tpform_mtb{
+    margin: 55px 0;
+}
+.tp_form_title{
+        font-size: 48px;
+    color: #fff;
+}
+.tp_fcontrol {
+    background: #fff;
+    text-align: right;
+}
+.tp_fcontrol:focus {
+    background: #fff;
+}
+.tp_formcright {
+    color: #fff;
+}
+
+.rpayment_content_bb{
+    border-bottom: 2px dashed #000;
+}
+.rtp_title{
+    color:#fd7468;
+}
+.rt_formcright{
+    color: #fff;
+    padding-left: 10px;
+}
+.rp_form_title,.rp_formcright{
+    color: #000;
+}
+.rp_form_title span{
+        font-size: 28px;
+}
+.rp_fcontrol,.rp_fcontrol:focus {
+    background: #e5e5e5;
+}
+.form-row input::placeholder {
+  color: #000;
+  opacity: 1;
+}
+
+.summary_section {
+    background: #e8e8e8;
+}
+.summary_title h2 {
+    color: #255ed6;
+    font-size: 56px;
+    text-align: center;
+    font-weight: 600;
+}
+.summary_content {
+    margin: 40px 0;
+    text-align: center;
+}
+.summary_info_text {
+    text-align: left;
+}
+.summary_info_text p {
+    color: #000;
+    font-size: 26px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+}
+.summary_info_text p span{
+    color: #fd7468;
+}
+.more_contact{
+    background:url(../images/summary_info.png);
+    background-size:cover;
+    background-position: center center;
+    height: auto;
+}
+.more_contact p {
+    max-width: 750px;
+    margin: 0 auto;
+    font-size: 44px;
+    line-height: 1.3;
+    color: #fff;
+    padding: 100px 60px;
+}
+.simulate_section_btn{
+        border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+.card_ptb{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.card_header_bg{
+    background: linear-gradient(90deg, rgba(244, 112, 100, 1) 0%, rgba(244, 112, 100, 1) 35%, rgba(244, 112, 100, 1) 100%);
+    box-shadow: none;
+    border-bottom: none;
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
 }

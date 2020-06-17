@@ -93,6 +93,83 @@ $(document).ready(function () {
 
     });
 
+    $(".repay_content_one").on('click', function () {
+        $(".repay_content_one , .repay_content_one span i").addClass('repay_content_bg , icon_active');
+        $(".repay_content_two , .repay_content_two span i").removeClass('repay_content_bg_active , icon_active');
+    });
+
+    $(".repay_content_two").on('click', function () {
+        $(".repay_content_one , .repay_content_one span i").removeClass('repay_content_bg , icon_active');
+        $(".repay_content_two , .repay_content_two span i").addClass('repay_content_bg_active , icon_active');
+    });
+
+
+
+    $(".repay_content2").on('click', function () {
+        $(".repay_content1 , .repay_content3 , .repay_content1 span i , .repay_content3 span i").removeClass('rcb_active , icon_active');
+        $(".repay_content2 , .repay_content2 span i").addClass('rcb_active , icon_active');
+    });
+
+    $(".repay_content3").on('click', function () {
+        $(".repay_content1 , .repay_content2 , .repay_content1 span i , .repay_content2 span i").removeClass('rcb_active , icon_active');
+        $(".repay_content3 , .repay_content3 span i").addClass('rcb_active , icon_active');
+    });
+
+    $(".repay_content1").on('click', function () {
+        $(".repay_content2 , .repay_content3 , .repay_content2 span i , .repay_content3 span i").removeClass('rcb_active , icon_active');
+        $(".repay_content1 , .repay_content1 span i").addClass('rcb_active , icon_active');
+    });
+
+    //-------- 0.9 Price_range Js --------
+    $(function () {
+        $("#slider-range-min").slider({
+            range: "min",
+            value: 2,
+            min: 1,
+            max: 35,
+            slide: function (event, ui) {
+                $("#amount").val(ui.value + " 年間 ");
+            }
+        });
+        $("#amount").val(" 年間 " + $("#slider-range-min").slider("value"));
+    });
+    $(function () {
+        $("#slider-range-min2").slider({
+            range: "min",
+            value: 2,
+            min: 1,
+            max: 35,
+            slide: function (event, ui) {
+                $("#amount2").val(ui.value + " 年間 ");
+            }
+        });
+        $("#amount2").val(" 年間 " + $("#slider-range-min2").slider("value"));
+    });
+    $(function () {
+        $("#slider-range-min3").slider({
+            range: "min",
+            value: 2,
+            min: 1,
+            max: 35,
+            slide: function (event, ui) {
+                $("#amount3").val(ui.value + " 年間 ");
+            }
+        });
+        $("#amount3").val(" 年間 " + $("#slider-range-min3").slider("value"));
+    });
+    $(function () {
+        $("#slider-range-min4").slider({
+            range: "min",
+            value: 2,
+            min: 1,
+            max: 35,
+            slide: function (event, ui) {
+                $("#amount4").val(ui.value + " 年間 ");
+            }
+        });
+        $("#amount4").val(" 年間 " + $("#slider-range-min4").slider("value"));
+    });
+
     //-------- 0.9 WoW Js --------
     new WOW().init({});
 
