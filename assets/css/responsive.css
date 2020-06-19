@@ -494,6 +494,9 @@
     .rp_form_title span {
         font-size: 20px;
     }
+    .summary_section {
+    margin-top: 50px;
+}
 }
 
 /* ------ end max575px ------- */
@@ -520,6 +523,7 @@
 
     .simulate-title h2 {
         font-size: 20px;
+        margin-bottom: 20px;
     }
 
     .card {
@@ -791,6 +795,9 @@
     .rp_form_title span {
         font-size: 16px;
     }
+    .summary_section {
+    margin-top: 50px;
+}
 }
 
 
