@@ -478,9 +478,22 @@
     }
 
     .simulate_section {
-        margin-top: -120px;
+        margin-top: -80px;
     }
 
+    .more_contact {
+        margin-bottom: 90px !important;
+    }
+
+    .more_contact p {
+        font-size: 16px;
+        color: #fff;
+        padding: 80px 50px;
+    }
+
+    .rp_form_title span {
+        font-size: 20px;
+    }
 }
 
 /* ------ end max575px ------- */
@@ -502,7 +515,7 @@
     }
 
     .simulate_section {
-        margin-top: -120px;
+        margin-top: -80px;
     }
 
     .simulate-title h2 {
@@ -677,6 +690,10 @@
         margin: 10px 0;
     }
 
+    .more_contact {
+        margin-bottom: 90px;
+    }
+
     .more_contact p {
         font-size: 16px;
         color: #fff;
@@ -755,6 +772,24 @@
 
     .btn_coll_custom span {
         left: 0;
+    }
+
+    .more_contact {
+        margin-bottom: 90px !important;
+    }
+
+    .more_contact p {
+        font-size: 16px;
+        color: #fff;
+        padding: 80px 50px;
+    }
+
+    .form_title {
+        font-size: 19px;
+    }
+
+    .rp_form_title span {
+        font-size: 16px;
     }
 }
 
