@@ -16,9 +16,6 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 
     <!-- jquery-ui CSS -->
-        <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-
-
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
 
@@ -95,298 +92,216 @@
             <div class="row">
                 <div class="col-md-2"></div>
                 <div class="col-md-8">
-                    <div class="borrowing_cndn">
-                        <form class="form_ptb">
-                            <div class="form-row form_row_content wow fadeInUp">
-                                <div class="col-sm-9 col-8">
-                                    <p class="form_title">ご希望の借入額は？</p>
-                                </div>
-                                <div class="col-2">
-                                    <span class="form_title_sub">必須</span>
-                                </div>
-                                <div class="col-1">
-                                    <div class="form_title_icon">
-                                        <i class="fas fa-question"></i>
+                    <!-- form start -->
+                    <form action="#">
+                        <!-- input -->
+                        <div class="borrowing_input">
+                            <label class="input_title">
+                                <H4>ご希望の借入額は？</H4>
+                                <span class="input_title_right">
+                                    <p class="input_req">必須</p>
+                                    <p class="input_req_icon"><span>?</span>
+                                    </p>
+                                </span>
+                            </label>
+                            <div class="input_field">
+                                <input type="text" class="form-control">
+                                <span>円</span>
+                            </div>
+                            <p class="input_btm_text">※半角数字5桁、1～30000（万円）まで 例：30000</p>
+                        </div>
+                        <div class="borrowing_input">
+                            <label class="input_title">
+                                <H4>うちボーナス分は？</H4>
+                                <span class="input_title_right">
+                                    <p class="input_req_icon"><span>?</span>
+                                    </p>
+                                </span>
+                            </label>
+                            <div class="input_field">
+                                <input type="text" class="form-control">
+                                <span>円</span>
+                            </div>
+                            <p class="input_btm_text">※半角数字5桁、1～30000（万円）まで 例：30000</p>
+                        </div>
+                        <div class="borrowing_input">
+                            <label class="input_title">
+                                <H4>返済方法は？
+                                    <span class="input_title_req">必須</span>
+                                </H4>
+                            </label>
+                            <div class="select_button_area">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="repay_content_one">
+                                            <h2>元利均等</h2>
+                                            <span><i class="fas fa-question"></i></span>
+                                        </div>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="form-row">
-                                <div class="col-11">
-                                    <input type="text" class="form-control form_control_ctm wow fadeInUp">
-                                </div>
-                                <div class="col-1">
-                                    <span class="form_control_right wow fadeInUp">円</span>
-                                </div>
-                                <div class="form_control_text wow fadeInUp">
-                                    <p>※半角数字5桁、1～30000（万円）まで 例：30000</p>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                    <div class="borrowing_cndn">
-                        <form class="form_ptb">
-                            <div class="form-row form_row_content wow fadeInUp">
-                                <div class="col-8 col-sm-9">
-                                    <p class="form_title">うちボーナス分は？</p>
-                                </div>
-                                <div class="col-2 col-sm-2"></div>
-                                <div class="col-1">
-                                    <div class="form_title_icon">
-                                        <i class="fas fa-question"></i>
+                                    <div class="col-6">
+                                        <div class="repay_content_two repay_content_bg_active">
+                                            <h2>元金均等 </h2>
+                                            <span><i class="fas fa-question icon_active"></i></span>
+                                        </div>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="form-row">
-                                <div class="col-11">
-                                    <input type="text" class="form-control form_control_ctm wow fadeInUp">
-                                </div>
-                                <div class="col-1">
-                                    <span class="form_control_right wow fadeInUp">円</span>
-                                </div>
-                                <div class="form_control_text wow fadeInUp">
-                                    <p>※半角数字5桁、1～30000（万円）まで 例：30000</p>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                    <div class="borrowing_cndn">
-                        <form class="form_ptb">
-                            <div class="form-row form_row_content wow fadeInUp">
-                                <div class="col-6 col-md-7">
-                                    <p class="form_title">返済方法は？</p>
-                                </div>
-                                <div class="col-2">
-                                    <span class="form_title_sub">必須</span>
-                                </div>
-                                <div class="col-1"></div>
-                            </div>
-                        </form>
-                        <div class="row">
-                            <div class="col-6">
-                                <div class="repay_content_one">
-                                    <h2>元利均等</h2>
-                                    <span><i class="fas fa-question"></i></span>
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="repay_content_two repay_content_bg_active">
-                                    <h2>元金均等 </h2>
-                                    <span><i class="fas fa-question icon_active"></i></span>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="borrowing_cndn">
-                        <form class="form_ptb">
-                            <div class="form-row form_row_content wow fadeInUp">
-                                <div class="col-7  col-sm-6 col-md-7">
-                                    <p class="form_title">返済方法は？</p>
-                                </div>
-                                <div class="col-3 col-sm-4 col-md-4">
-                                    <span class="form_title_sub">必須</span>
-                                </div>
-                                <div class="col-1">
-                                    <div class="form_title_icon">
-                                        <i class="fas fa-question"></i>
+                        <div class="borrowing_input">
+                            <label class="input_title">
+                                <H4>返済期間は？
+                                    <span class="input_title_req">必須</span>
+                                </H4>
+                                <span class="input_title_right">
+                                    <p class="input_req_icon"><span>?</span>
+                                    </p>
+                                </span>
+                            </label>
+                            <div class="range_ctm_slider">
+                                <div class="d-flex justify-content-center mt-4">
+                                    <div class="w-100">
+                                        <input type="range" class="custom-range" id="customRange" min="10" max="200">
                                     </div>
+
                                 </div>
+                                <p><span class="font-weight-bold  ml-2 valueSpan">105</span> 年間</p>
                             </div>
-                        </form>
-                    </div>
-                    <div class="price">
-                        <div id="slider-range-min"></div>
-                        <p>
-                            <input type="text" id="amount" readonly style="border:0; color:#000000; font-weight:bold;">
-                        </p>
-                    </div>
-                    <div class="borrowing_cndn">
-                        <form class="form_ptb">
-                            <div class="form-row form_row_content wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
-                                <div class="col-6 col-md-7">
-                                    <p class="form_title">返済方法は？</p>
-                                </div>
-                                <div class="col-2 col-md-2">
-                                    <span class="form_title_sub">必須</span>
-                                </div>
-                                <div class="col-1"></div>
-                            </div>
-                        </form>
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="repay_content1 rcb_active">
-                                    <h2>元金均等 </h2>
-                                    <span><i class="fas fa-question icon_active"></i></span>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="repay_content2">
-                                    <h2>変動金利 </h2>
-                                    <span><i class="fas fa-question"></i></span>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="repay_content3">
-                                    <h2>期間選択 </h2>
-                                    <span><i class="fas fa-question"></i></span>
+                        </div>
+                        <div class="borrowing_input">
+                            <label class="input_title">
+                                <H4>返済方法は？
+                                    <span class="input_title_req">必須</span>
+                                </H4>
+                            </label>
+                            <div class="select_button_area">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="repay_content1 rcb_active">
+                                            <h2>元金均等 </h2>
+                                            <span><i class="fas fa-question icon_active"></i></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="repay_content2">
+                                            <h2>変動金利 </h2>
+                                            <span><i class="fas fa-question"></i></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="repay_content3">
+                                            <h2>期間選択 </h2>
+                                            <span><i class="fas fa-question"></i></span>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="borrowing_cndn">
-                        <form class="form_ptb">
-                            <div class="form-row form_row_content wow fadeInUp">
-                                <div class="col-6 col-sm-6 col-md-7">
-                                    <p class="form_title">当初金利は？</p>
-                                </div>
-                                <div class="col-4 col-sm-5 col-md-4">
-                                    <span class="form_title_sub">必須</span>
-                                </div>
-                                <div class="col-1">
-                                    <div class="form_title_icon">
-                                        <i class="fas fa-question"></i>
+                        <div class="borrowing_input">
+                            <label class="input_title">
+                                <h4>当初金利は？
+                                    <span class="input_title_req">必須</span>
+                                </h4>
+                                <span class="input_title_right">
+                                    <p class="input_req_icon"><span>?</span>
+                                    </p>
+                                </span>
+                            </label>
+                            <div class="input_field">
+                                <input type="text" class="form-control">
+                                <span>%</span>
+                            </div>
+                            <p class="input_btm_text">※半角数字5桁、1～30000（万円）まで 例：30000</p>
+
+                            <div class="range_ctm_slider">
+                                <div class="d-flex justify-content-center mt-4">
+                                    <div class="w-100">
+                                        <input type="range" class="custom-range" id="customRange01" min="10" max="200">
                                     </div>
+
                                 </div>
+                                <p><span class="font-weight-bold  ml-2 valueSpan01">105</span> 年間</p>
                             </div>
-                            <div class="form-row">
-                                <div class="col-11">
-                                    <input type="text" class="form-control form_control_ctm wow fadeInUp">
-                                </div>
-                                <div class="col-1">
-                                    <span class="form_control_right wow fadeInUp">%</span>
-                                </div>
-                                <div class="form_control_text wow fadeInUp">
-                                    <p>※半角数字5桁、1～30000（万円）まで 例：30000</p>
-                                </div>
+                        </div>
+                        <div class="borrowing_input">
+                            <label class="input_title">
+                                <h4>第二金利は？</h4>
+                                <span class="input_title_right">
+                                    <p class="input_req_icon"><span>?</span>
+                                    </p>
+                                </span>
+                            </label>
+                            <div class="input_field">
+                                <input type="text" class="form-control">
+                                <span>%</span>
                             </div>
-                        </form>
-                    </div>
-                    <div class="price">
-                        <div id="slider-range-min2"></div>
-                        <p>
-                            <input type="text" id="amount2" readonly style="border:0; color:#000000; font-weight:bold;">
-                        </p>
-                    </div>
-                    <div class="borrowing_cndn">
-                        <form class="form_ptb">
-                            <div class="form-row form_row_content wow fadeInUp">
-                                <div class="col-6 col-sm-6 col-md-7">
-                                    <p class="form_title">第二金利は？</p>
-                                </div>
-                                <div class="col-4 col-sm-5 col-md-4">
-                                </div>
-                                <div class="col-1">
-                                    <div class="form_title_icon">
-                                        <i class="fas fa-question"></i>
+                            <p class="input_btm_text">※半角数字5桁、1～30000（万円）まで 例：30000</p>
+
+                            <div class="range_ctm_slider">
+                                <div class="d-flex justify-content-center mt-4">
+                                    <div class="w-100">
+                                        <input type="range" class="custom-range" id="customRange2" min="10" max="200">
                                     </div>
+
                                 </div>
+                                <p><span class="font-weight-bold  ml-2 valueSpan2">105</span> 年間</p>
                             </div>
-                            <div class="form-row">
-                                <div class="col-11">
-                                    <input type="text" class="form-control form_control_ctm wow fadeInUp">
-                                </div>
-                                <div class="col-1">
-                                    <span class="form_control_right wow fadeInUp">%</span>
-                                </div>
-                                <div class="form_control_text wow fadeInUp">
-                                    <p>※半角数字5桁、1～30000（万円）まで 例：30000</p>
-                                </div>
+                        </div>
+                        <div class="borrowing_input">
+                            <label class="input_title">
+                                <h4>第三金利は？</h4>
+                                <span class="input_title_right">
+                                    <p class="input_req_icon"><span>?</span>
+                                    </p>
+                                </span>
+                            </label>
+                            <div class="input_field">
+                                <input type="text" class="form-control">
+                                <span>%</span>
                             </div>
-                        </form>
-                    </div>
-                    <div class="price">
-                        <div id="slider-range-min3"></div>
-                        <p>
-                            <input type="text" id="amount3" readonly style="border:0; color:#000000; font-weight:bold;">
-                        </p>
-                    </div>
-                    <div class="borrowing_cndn">
-                        <form class="form_ptb">
-                            <div class="form-row form_row_content wow fadeInUp">
-                                <div class="col-6 col-sm-6 col-md-7">
-                                    <p class="form_title">第二金利は？</p>
-                                </div>
-                                <div class="col-4 col-sm-5 col-md-4">
-                                </div>
-                                <div class="col-1">
-                                    <div class="form_title_icon">
-                                        <i class="fas fa-question"></i>
+                            <p class="input_btm_text">※半角数字5桁、1～30000（万円）まで 例：30000</p>
+
+                            <div class="range_ctm_slider">
+                                <div class="d-flex justify-content-center mt-4">
+                                    <div class="w-100">
+                                        <input type="range" class="custom-range" id="customRange3" min="10" max="200">
                                     </div>
+
                                 </div>
+                                <p><span class="font-weight-bold  ml-2 valueSpan3">105</span> 年間</p>
                             </div>
-                            <div class="form-row">
-                                <div class="col-11">
-                                    <input type="text" class="form-control form_control_ctm wow fadeInUp">
-                                </div>
-                                <div class="col-1">
-                                    <span class="form_control_right wow fadeInUp">%</span>
-                                </div>
-                                <div class="form_control_text wow fadeInUp">
-                                    <p>※半角数字5桁、1～30000（万円）まで 例：30000</p>
-                                </div>
+                        </div>
+                        <div class="borrowing_input">
+                            <label class="input_title">
+                                <h4>融資手数料は？</h4>
+                                <span class="input_title_right">
+                                    <p class="input_req_icon"><span>?</span>
+                                    </p>
+                                </span>
+                            </label>
+                            <div class="input_field">
+                                <input type="text" class="form-control">
+                                <span>%</span>
                             </div>
-                        </form>
-                    </div>
-                    <div class="price">
-                        <div id="slider-range-min4"></div>
-                        <p>
-                            <input type="text" id="amount4" readonly style="border:0; color:#000000; font-weight:bold;">
-                        </p>
-                    </div>
-                    <div class="borrowing_cndn">
-                        <form class="form_ptb">
-                            <div class="form-row form_row_content wow fadeInUp">
-                                <div class="col-6 col-sm-6 col-md-7">
-                                    <p class="form_title">第二金利は？</p>
-                                </div>
-                                <div class="col-4 col-sm-5 col-md-4">
-                                </div>
-                                <div class="col-1">
-                                    <div class="form_title_icon">
-                                        <i class="fas fa-question"></i>
-                                    </div>
-                                </div>
+                            <p class="input_btm_text">半角数字7桁まで　例：9999999</p>
+                        </div>
+                        <div class="borrowing_input">
+                            <label class="input_title">
+                                <h4>保証料は？</h4>
+                                <span class="input_title_right">
+                                    <p class="input_req_icon"><span>?</span>
+                                    </p>
+                                </span>
+                            </label>
+                            <div class="input_field">
+                                <input type="text" class="form-control">
+                                <span>%</span>
                             </div>
-                            <div class="form-row">
-                                <div class="col-11">
-                                    <input type="text" class="form-control form_control_ctm wow fadeInUp">
-                                </div>
-                                <div class="col-1">
-                                    <span class="form_control_right wow fadeInUp">円</span>
-                                </div>
-                                <div class="form_control_text wow fadeInUp">
-                                    <p>※半角数字5桁、1～30000（万円）まで 例：30000</p>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                    <div class="borrowing_cndn">
-                        <form class="form_ptb">
-                            <div class="form-row form_row_content wow fadeInUp">
-                                <div class="col-6 col-sm-6 col-md-7">
-                                    <p class="form_title">第二金利は？</p>
-                                </div>
-                                <div class="col-4 col-sm-5 col-md-4">
-                                </div>
-                                <div class="col-1">
-                                    <div class="form_title_icon">
-                                        <i class="fas fa-question"></i>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="form-row">
-                                <div class="col-11">
-                                    <input type="text" class="form-control form_control_ctm wow fadeInUp">
-                                </div>
-                                <div class="col-1">
-                                    <span class="form_control_right wow fadeInUp">円</span>
-                                </div>
-                                <div class="form_control_text wow fadeInUp">
-                                    <p>※半角数字5桁、1～30000（万円）まで 例：30000</p>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                    <button class="top_btn_cutom">メニューへ戻る</button>
+                            <p class="input_btm_text">半角数字7桁まで　例：9999999</p>
+                        </div>
+                        <!-- call to action  button -->
+                        <a href="#" class="btn top_btn_cutom">メニューへ戻る</a>
+                    </form>
+                    <!-- form start -->
                 </div>
                 <div class="col-md-2"></div>
             </div>
@@ -448,8 +363,9 @@
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="assets/js/code.jquery.comjquery-3.5.0.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="assets/js/custom.js"></script>
+    <script src="assets/js/custom_range.js"></script>
     <script src="assets/js/wow.min.js"></script>
 </body>
+
 </html>

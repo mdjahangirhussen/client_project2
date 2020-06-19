@@ -51,6 +51,31 @@
         font-size: 50px;
     }
 
+    .borrowing_input {
+        margin: 40px 0;
+    }
+
+    .input_title h4 {
+        font-size: 48px;
+    }
+
+    .input_btm_text {
+        font-size: 26px;
+    }
+
+    .tbanner_title {
+        padding: 130px 0 0;
+    }
+
+    .card.card_custom {
+        margin: 10px 0px 20px;
+    }
+
+    .card_header_custom h5 {
+        font-size: 40px;
+    }
+
+
 }
 
 /* ------ end max1280px ------- */
@@ -187,26 +212,56 @@
         margin: 40px 0;
     }
 
-.form_control_right {
-    display: inline-block;
-    padding-top: 15px;
-    padding-left: 5px;
-    font-size: 30px;
-}
+    .form_control_right {
+        display: inline-block;
+        padding-top: 15px;
+        padding-left: 5px;
+        font-size: 30px;
+    }
 
-.form_title {
-    font-size: 34px;
-}
+    .form_title {
+        font-size: 34px;
+    }
 
-.summary_title h2 {
-    font-size: 46px;
-}
+    .summary_title h2 {
+        font-size: 46px;
+    }
 
-.summary_info_text p {
-    font-size: 20px;
-    margin: 4px 0;
-}
+    .summary_info_text p {
+        font-size: 20px;
+        margin: 4px 0;
+    }
 
+    .input_title h4 {
+        font-size: 34px;
+    }
+
+    .input_req {
+        font-size: 24px;
+        padding: 12px 16px;
+    }
+
+    .input_field {
+        margin: 30px 0;
+    }
+
+    .input_btm_text {
+        font-size: 19px;
+    }
+
+    .card_header_custom {
+        padding-left: 5px;
+        padding-right: 10px;
+    }
+
+    .card.card_custom {
+        margin: 0px 0px 20px;
+    }
+
+    .card_header_custom h5 span {
+        font-size: 16px;
+    }
+}
 
 
 /* ------ end max992px ------- */
@@ -324,6 +379,15 @@
     .summary_title h2 {
         font-size: 26px;
     }
+
+    .repay_content_one,
+    .repay_content_two {
+        border-radius: 40px;
+    }
+
+    .card_header_custom h5 {
+        font-size: 34px;
+    }
 }
 
 /* ------ end max768px ------- */
@@ -396,6 +460,27 @@
         max-width: 350px;
     }
 
+    .borrowing_input {
+        margin: 26px 0;
+    }
+
+    .input_field {
+        margin: 20px 0;
+    }
+
+    .card_header_custom h5 {
+        font-size: 28px;
+    }
+
+    .btn_coll_custom span:before,
+    .btn_coll_custom span:after {
+        width: 20px;
+    }
+
+    .simulate_section {
+        margin-top: -120px;
+    }
+
 }
 
 /* ------ end max575px ------- */
@@ -414,6 +499,10 @@
 
     .banner-title p {
         font-size: 16px;
+    }
+
+    .simulate_section {
+        margin-top: -120px;
     }
 
     .simulate-title h2 {
@@ -543,7 +632,7 @@
     .repay_content1 h2,
     .repay_content2 h2,
     .repay_content3 h2 {
-        font-size: 36px;
+        font-size: 32px;
         color: #fff;
     }
 
@@ -603,6 +692,70 @@
         margin-bottom: 10px;
     }
 
+    .input_title h4 {
+        font-size: 20px;
+    }
+
+    .input_req {
+        font-size: 16px;
+        padding: 6px 10px;
+    }
+
+    .input_req_icon {
+        width: 28px;
+        height: 28px;
+        line-height: 31px;
+        margin-left: 8px;
+    }
+
+    .borrowing_input {
+        margin: 15px 0;
+    }
+
+    .input_field span {
+        font-size: 28px;
+    }
+
+    .input_field input {
+        padding: 28px 40px;
+        font-size: 20px;
+    }
+
+    .input_field {
+        margin: 20px 0;
+    }
+
+    .input_btm_text {
+        font-size: 16px;
+    }
+
+    .input_req_icon span {
+        font-size: 16px;
+    }
+
+    .input_title_req {
+        font-size: 16px;
+        padding: 8px 10px;
+        border-radius: 10px;
+        margin-left: 0px;
+    }
+
+    .card_header_custom h5 {
+        font-size: 24px;
+    }
+
+    .btn_coll_custom span:before,
+    .btn_coll_custom span:after {
+        width: 16px;
+    }
+
+    .card_header_custom h5 span {
+        font-size: 14px;
+    }
+
+    .btn_coll_custom span {
+        left: 0;
+    }
 }
 
 
