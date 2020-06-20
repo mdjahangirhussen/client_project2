@@ -246,6 +246,10 @@ button.navbar-toggler.toggle_bar[aria-expanded="true"] .icon_bar:before {
 .card {
     border: none;
     margin: 40px 0;
+    background: linear-gradient(90deg, rgba(244, 112, 100, 1) 0%, rgba(244, 112, 100, 1) 35%, rgba(244, 112, 100, 1) 100%);
+    border-radius: 50px;
+    box-shadow: 0px 1px 13px 3px rgba(0, 0, 0, 0.1);
+
 }
 
 .card_title {
@@ -260,8 +264,15 @@ button.navbar-toggler.toggle_bar[aria-expanded="true"] .icon_bar:before {
     background: #FCC29C;
     border-radius: 50px !important;
     position: relative;
-    box-shadow: 0px 1px 13px 3px rgba(0, 0, 0, 0.1);
+    transition: all .9s ease;
 
+}
+
+.card-body {
+    background: linear-gradient(90deg, rgba(244, 112, 100, 1) 0%, rgba(244, 112, 100, 1) 35%, rgba(244, 112, 100, 1) 100%);
+    border-radius: 50px !important;
+    padding-top: 0px;
+    padding-bottom: 50px;
 }
 
 .card_body_title p {
@@ -313,13 +324,7 @@ button.navbar-toggler.toggle_bar[aria-expanded="true"] .icon_bar:before {
 
 
 
-.card-body {
-    background: linear-gradient(90deg, rgba(244, 112, 100, 1) 0%, rgba(244, 112, 100, 1) 35%, rgba(244, 112, 100, 1) 100%);
-    border-bottom-right-radius: 50px !important;
-    border-bottom-left-radius: 50px !important;
-    padding-top: 0px;
-    padding-bottom: 50px;
-}
+
 
 .showd,
 .showd2,
@@ -365,12 +370,8 @@ button.navbar-toggler.toggle_bar[aria-expanded="true"] .icon_bar:before {
 
 .clicked {
     background: linear-gradient(90deg, rgba(244, 112, 100, 1) 0%, rgba(244, 112, 100, 1) 35%, rgba(244, 112, 100, 1) 100%);
-    border-bottom-right-radius: 0px !important;
-    border-bottom-left-radius: 0px !important;
     border: none !important
 }
-
-
 
 .card_title p i {
     font-size: 25px;
@@ -911,7 +912,10 @@ input#amount4 {
 
 .card.card_custom {
     border-bottom: 3px dashed #000;
-    margin: 20px 0px;
+    margin: 30px 0px;
+    border-radius: 0;
+    background: none;
+    box-shadow: none;
 }
 
 .card_header_custom {
