@@ -1,0 +1,374 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Font-awesome CSS -->
+    <link rel="stylesheet" href="assets/css/all.css">
+
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="assets/css/animate.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <!-- jquery-ui CSS -->
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+    <title>Hello</title>
+</head>
+
+<body>
+    <!--  Start header_section  -->
+    <section class="header-section sp_header_section">
+        <div class="container">
+            <!--  Start main_menu_section  -->
+            <nav class="navbar main-navbar">
+                <!--logo-->
+                <a class="navbar-brand menu_logo" href="#"><img src="assets/images/jyutaku_loan.png" alt="logo"></a>
+                <button class="navbar-toggler toggle_bar" type="button" data-toggle="collapse" data-target="#mobile_nav">
+                    <span class="icon_bar"></span>
+                </button>
+                <div class="collapse navbar-collapse main_menu_collapse" id="mobile_nav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="homepage2.html">Home page 2</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="homepage3.html">Home page 3</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="homepage4.html">Home page 4</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="homepage5.html">Home page 5</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <!--  End main_menu_section  -->
+        </div>
+        <div class="banner s_p_banner">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-7 col-md-5 col-lg-6 banner_content_left">
+                        <div class="banner-title s_banner_title wow fadeInUp">
+                            <h3>返済額の試算</h3>
+                            <p>金利など一定の返済条件を入力し<br />総返済額や毎月の返済額を試算します。</p>
+                        </div>
+                    </div>
+                    <div class="col-5 col-md-7 col-lg-6">
+                        <div class="banner_content wow fadeInUp">
+                            <img src="assets/images/s_banner_contet_2.png" alt="banner_content_2" class="img-fluid">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--  End header_section  -->
+
+    <!--  Start about_section  -->
+    <section class="simulate_section  section_ptb">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-12">
+                    <div class="simulate-title wow fadeInUp">
+                        <h2>借り入れ条件</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-8">
+                    <!-- form start -->
+                    <form action="#">
+                        <!-- input -->
+                        <div class="borrowing_input">
+                            <label class="input_title">
+                                <H4>ご希望の借入額は？</H4>
+                                <span class="input_title_right">
+                                    <p class="input_req">必須</p>
+                                    <p class="input_req_icon"><span>?</span>
+                                    </p>
+                                </span>
+                            </label>
+                            <div class="input_field">
+                                <input type="text" class="form-control">
+                                <span>円</span>
+                            </div>
+                            <p class="input_btm_text">※半角数字5桁、1～30000（万円）まで 例：30000</p>
+                        </div>
+                        <div class="borrowing_input">
+                            <label class="input_title">
+                                <H4>うちボーナス分は？</H4>
+                                <span class="input_title_right">
+                                    <p class="input_req_icon"><span>?</span>
+                                    </p>
+                                </span>
+                            </label>
+                            <div class="input_field">
+                                <input type="text" class="form-control">
+                                <span>円</span>
+                            </div>
+                            <p class="input_btm_text">※半角数字5桁、1～30000（万円）まで 例：30000</p>
+                        </div>
+                        <div class="borrowing_input">
+                            <label class="input_title">
+                                <H4>返済方法は？
+                                    <span class="input_title_req">必須</span>
+                                </H4>
+                            </label>
+                            <div class="select_button_area">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="repay_content_one">
+                                            <h2>元利均等</h2>
+                                            <span><i class="fas fa-question"></i></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="repay_content_two repay_content_bg_active">
+                                            <h2>元金均等 </h2>
+                                            <span><i class="fas fa-question icon_active"></i></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="borrowing_input">
+                            <label class="input_title">
+                                <H4>返済期間は？
+                                    <span class="input_title_req">必須</span>
+                                </H4>
+                                <span class="input_title_right">
+                                    <p class="input_req_icon"><span>?</span>
+                                    </p>
+                                </span>
+                            </label>
+                            <div class="range_ctm_slider">
+                                <div class="d-flex justify-content-center mt-4">
+                                    <div class="w-100">
+                                        <input type="range" class="custom-range" id="customRange" min="10" max="200">
+                                    </div>
+
+                                </div>
+                                <p><span class="font-weight-bold  ml-2 valueSpan">105</span> 年間</p>
+                            </div>
+                        </div>
+                        <div class="borrowing_input">
+                            <label class="input_title">
+                                <H4>返済方法は？
+                                    <span class="input_title_req">必須</span>
+                                </H4>
+                            </label>
+                            <div class="select_button_area">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="repay_content1 rcb_active">
+                                            <h2>元金均等 </h2>
+                                            <span><i class="fas fa-question icon_active"></i></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="repay_content2">
+                                            <h2>変動金利 </h2>
+                                            <span><i class="fas fa-question"></i></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="repay_content3">
+                                            <h2>期間選択 </h2>
+                                            <span><i class="fas fa-question"></i></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="borrowing_input">
+                            <label class="input_title">
+                                <h4>当初金利は？
+                                    <span class="input_title_req">必須</span>
+                                </h4>
+                                <span class="input_title_right">
+                                    <p class="input_req_icon"><span>?</span>
+                                    </p>
+                                </span>
+                            </label>
+                            <div class="input_field">
+                                <input type="text" class="form-control">
+                                <span>%</span>
+                            </div>
+                            <p class="input_btm_text">※半角数字5桁、1～30000（万円）まで 例：30000</p>
+
+                            <div class="range_ctm_slider">
+                                <div class="d-flex justify-content-center mt-4">
+                                    <div class="w-100">
+                                        <input type="range" class="custom-range" id="customRange01" min="10" max="200">
+                                    </div>
+
+                                </div>
+                                <p><span class="font-weight-bold  ml-2 valueSpan01">105</span> 年間</p>
+                            </div>
+                        </div>
+                        <div class="borrowing_input">
+                            <label class="input_title">
+                                <h4>第二金利は？</h4>
+                                <span class="input_title_right">
+                                    <p class="input_req_icon"><span>?</span>
+                                    </p>
+                                </span>
+                            </label>
+                            <div class="input_field">
+                                <input type="text" class="form-control">
+                                <span>%</span>
+                            </div>
+                            <p class="input_btm_text">※半角数字5桁、1～30000（万円）まで 例：30000</p>
+
+                            <div class="range_ctm_slider">
+                                <div class="d-flex justify-content-center mt-4">
+                                    <div class="w-100">
+                                        <input type="range" class="custom-range" id="customRange2" min="10" max="200">
+                                    </div>
+
+                                </div>
+                                <p><span class="font-weight-bold  ml-2 valueSpan2">105</span> 年間</p>
+                            </div>
+                        </div>
+                        <div class="borrowing_input">
+                            <label class="input_title">
+                                <h4>第三金利は？</h4>
+                                <span class="input_title_right">
+                                    <p class="input_req_icon"><span>?</span>
+                                    </p>
+                                </span>
+                            </label>
+                            <div class="input_field">
+                                <input type="text" class="form-control">
+                                <span>%</span>
+                            </div>
+                            <p class="input_btm_text">※半角数字5桁、1～30000（万円）まで 例：30000</p>
+
+                            <div class="range_ctm_slider">
+                                <div class="d-flex justify-content-center mt-4">
+                                    <div class="w-100">
+                                        <input type="range" class="custom-range" id="customRange3" min="10" max="200">
+                                    </div>
+
+                                </div>
+                                <p><span class="font-weight-bold  ml-2 valueSpan3">105</span> 年間</p>
+                            </div>
+                        </div>
+                        <div class="borrowing_input">
+                            <label class="input_title">
+                                <h4>融資手数料は？</h4>
+                                <span class="input_title_right">
+                                    <p class="input_req_icon"><span>?</span>
+                                    </p>
+                                </span>
+                            </label>
+                            <div class="input_field">
+                                <input type="text" class="form-control">
+                                <span>%</span>
+                            </div>
+                            <p class="input_btm_text">半角数字7桁まで　例：9999999</p>
+                        </div>
+                        <div class="borrowing_input">
+                            <label class="input_title">
+                                <h4>保証料は？</h4>
+                                <span class="input_title_right">
+                                    <p class="input_req_icon"><span>?</span>
+                                    </p>
+                                </span>
+                            </label>
+                            <div class="input_field">
+                                <input type="text" class="form-control">
+                                <span>%</span>
+                            </div>
+                            <p class="input_btm_text">半角数字7桁まで　例：9999999</p>
+                        </div>
+                        <!-- call to action  button -->
+                        <div class="btn_area">
+                            <a href="#" class="btn top_btn_cutom">メニューへ戻る</a>
+                            <div class="btn_overlay"></div>
+                        </div>
+                    </form>
+                    <!-- form start -->
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+        </div>
+    </section>
+
+    <!--  End about_section  -->
+
+    <!--  Start text-info_section  -->
+    <section class="text-info_section section_ptb">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2 d-col-none"></div>
+                <div class="col-12 col-sm-12 col-md-8">
+                    <div class="text_info_title">
+                        <h2 class="wow fadeInUp">ご利用にあたりまして</h2>
+                        <p class="wow fadeInUp">このシュミレーションは、ご利用者からのお申し出内容に基づき、住宅ローンを借り入れた際の毎月の返済額とボーナス返済額などを試算するものです。
+                            結果はあくまでも目安であり、借入可能額等を当機構が保証するものではありません。</p>
+                        <p class="wow fadeInUp">シュミレーションの結果は入力された金利をもとに試算を行なっていますので、将来の金利動向により、実際のご返済がシュミレーション結果と異なる場合があります。</p>
+                    </div>
+                </div>
+                <div class="col-md-2 d-col-none"></div>
+            </div>
+        </div>
+    </section>
+    <!--  End text-info_section  -->
+
+    <!--  Start section_separator  -->
+    <div class="section_separator wow fadeInUp">
+        <div class="container">
+            <div class="section_separator_path"></div>
+        </div>
+
+    </div>
+    <!--  End section_separator  -->
+
+    <!--  Start footer-section  -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="footer_content wow fadeInUp">
+                <h3>住宅ローンシュミレーションは、</h3>
+                <p>住宅保証機構株式会社が運営しています。</p>
+            </div>
+            <!--  Start copyright-->
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="copyRight-text wow fadeInUp">
+                            <p>&copy; 2012-2020<a href="#"> Housing Warranty Ltd.</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--  End copyright-->
+        </div>
+    </footer>
+    <!--  Start footer-section  -->
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="assets/js/code.jquery.comjquery-3.5.0.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/custom_range.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+</body>
+
+</html>
